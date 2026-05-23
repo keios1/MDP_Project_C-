@@ -1,4 +1,4 @@
-# Markov Decision Process (MDP) in C++ 🎲
+# Markov Decision Process (MDP) in C++ 
 
 본 프로젝트는 불확실한 환경 속에서 최적의 의사결정을 내리기 위한 수학적 프레임워크인 **마르코프 결정 과정(Markov Decision Process, MDP)**을 C++로 구현한 프로젝트입니다.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📖 핵심 개념 (Core Concepts)
+## 핵심 개념 (Core Concepts)
 
 ### 1. 마르코프 성질 (Markov Property)
 "미래는 오로지 현재에 의해서만 결정된다."
@@ -28,7 +28,7 @@ MRP에 에이전트가 주도적으로 취할 수 있는 **액션의 집합 $A$*
 
 ---
 
-## 🎯 정책과 최적화 (Policy & Optimization)
+## 정책과 최적화 (Policy & Optimization)
 
 에이전트는 주어진 상태에서 장기적인 보상을 최대화하기 위해 **정책(Policy)**을 가집니다. 정책은 결정적(Deterministic)일 수도, 확률적(Stochastic)일 수도 있습니다.
 
@@ -45,7 +45,7 @@ $$V(s) = \max_a \left( R(s,a) + \gamma \sum_{s'} P(s'|s,a) V(s') \right)$$
 
 ---
 
-## 💻 C++ 구현 세부 사항 (`MDP.cpp`)
+## C++ 구현 세부 사항 (`MDP.cpp`)
 
 이 프로젝트는 복잡한 의사결정 모델을 게임 AI의 상태 머신(FSM) 고도화 및 절차적 콘텐츠 생성(PCG) 등의 로직에 효율적으로 접목할 수 있도록 설계되었습니다.
 
@@ -54,7 +54,7 @@ $$V(s) = \max_a \left( R(s,a) + \gamma \sum_{s'} P(s'|s,a) V(s') \right)$$
 
 ---
 
-## 🚀 실행 방법
+## 실행 방법
 
 표준 C++ 컴파일러를 통해 빌드 및 실행할 수 있습니다.
 
