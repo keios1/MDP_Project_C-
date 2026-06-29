@@ -1,5 +1,6 @@
 # Markov Decision Process (MDP) in C++ 
-[![Unity Version](https://img.shields.io/badge/Check_Out-Unity_Version-black?style=flat-square&logo=unity)](https://github.com/keios1/Dynamic-MDP-Based-Auto-Hunt-AI)
+
+🔗 **[Unity 구현 버전 리포지토리 보러가기](https://github.com/keios1/Dynamic-MDP-Based-Auto-Hunt-AI)**
 
 본 프로젝트는 불확실한 환경 속에서 최적의 의사결정을 내리기 위한 수학적 프레임워크인 **마르코프 결정 과정(Markov Decision Process, MDP)**을 C++로 구현한 프로젝트입니다.
 
